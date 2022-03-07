@@ -69,9 +69,9 @@ ex) Oracle - sequence object, MySQL - AUTO_INCREMENT
 JPA가 제공하는 DB 기본 키 생성 전략
 * 직접 할당 : 기본 키를 애플리케이션에 직접 할당
 * 자동 생성 : 대리키 사용 방식
- - IDENTITY : 기본 키 생성을 DB에 위임
- - SEQUENCE : DB 시퀀스를 사용해서 기본 키를 할당
- - TABLE : 키 생성 테이블을 사용
+   - IDENTITY : 기본 키 생성을 DB에 위임
+   - SEQUENCE : DB 시퀀스를 사용해서 기본 키를 할당
+   - TABLE : 키 생성 테이블을 사용
  
  데이터베이스 벤더마다 지원 하는 방식이 다르기에 자동 생성 전략이 다양함
  
